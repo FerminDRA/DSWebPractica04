@@ -14,3 +14,11 @@ public interface IDAOGeneral<T, I>{
     public List<T> findAll();
     public T findById(I id);
 }
+
+
+
+
+
+
+
+

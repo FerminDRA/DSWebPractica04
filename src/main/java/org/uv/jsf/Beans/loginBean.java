@@ -54,3 +54,6 @@ public class loginBean implements Serializable {
         return "registro.xhtml"; // Debes retornar la página a la que deseas redireccionar.
     }
 }
+
+
+

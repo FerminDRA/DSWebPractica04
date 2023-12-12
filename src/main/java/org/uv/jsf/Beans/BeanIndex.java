@@ -10,7 +10,7 @@ import javax.faces.context.FacesContext;
 import org.uv.jsf.DAOPersona;
 import org.uv.jsf.Persona;
 
-@Named(value = "beanIndex")
+@Named(value = "beanIndex ")
 @SessionScoped
 public class BeanIndex implements Serializable {
     private String clave;
@@ -80,6 +80,7 @@ public class BeanIndex implements Serializable {
         }
     }
 
+
     public void crearPersona() {
         prsn= new Persona();
         prsn.setClave(Integer.parseInt(clave));
@@ -148,3 +149,9 @@ public class BeanIndex implements Serializable {
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summary, detail));
     }
 }
+
+
+
+
+
+
